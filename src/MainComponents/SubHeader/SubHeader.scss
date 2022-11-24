@@ -1,0 +1,15 @@
+@import "../../assets/styles/colors.scss";
+@import "../../assets/styles/constants.scss";
+
+.sub-header-wrapper {
+  height: 100%;
+  width: $subHeaderSize;
+  background: $grey;
+  position: fixed;
+  transition: 0.5s;
+
+  &:hover {
+    width: 300px;
+    transition-delay: 0.3s;
+  }
+}

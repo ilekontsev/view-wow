@@ -1,0 +1,8 @@
+@import "../../assets/styles/colors.scss";
+@import "../../assets/styles/constants.scss";
+
+.header-wrapper {
+  width: 100%;
+  height: $headerSize;
+  background: $black;
+}
