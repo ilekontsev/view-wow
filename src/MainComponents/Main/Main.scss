@@ -1,0 +1,8 @@
+@import "../../assets/styles/constants.scss";
+
+.main-wrapper {
+  height: calc(100vh - #{$headerSize});
+  background: rgb(145, 124, 124);
+  overflow: auto;
+  padding-left: $subHeaderSize;
+}
