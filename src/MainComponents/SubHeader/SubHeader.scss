@@ -7,9 +7,24 @@
   background: $grey;
   position: fixed;
   transition: 0.5s;
+  padding: 10px;
 
-  &:hover {
-    width: 300px;
-    transition-delay: 0.3s;
+  // &:hover {
+  //   width: 300px;
+  //   transition-delay: 0.3s;
+  // }
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.2s;
+
+  .icon {
+    &:hover {
+      transition: 0.2s;
+      color: red;
+    }
   }
 }

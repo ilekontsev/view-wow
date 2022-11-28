@@ -5,11 +5,9 @@ function SubHeader() {
   return (
     <div className="sub-header-root">
       <div className="sub-header-wrapper">
-        <Icon>add_circle</Icon>
-        <Icon color="primary">add_circle</Icon>
-        <Icon>add_circle</Icon>
-        <Icon fontSize="small">add_circle</Icon>
-        <Icon sx={{ fontSize: 30 }}>add_circle</Icon>
+        <div className="icon-container">
+          <Icon className='icon' sx={{ fontSize: 30 }}>home</Icon>
+        </div>
       </div>
     </div>
   );
