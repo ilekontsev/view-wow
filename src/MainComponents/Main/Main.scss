@@ -2,7 +2,8 @@
 
 .main-wrapper {
   height: calc(100vh - #{$headerSize});
-  background: rgb(145, 124, 124);
+  background: rgb(113, 109, 109);
   overflow: auto;
-  padding-left: $subHeaderSize;
+  margin-left: $subHeaderSize;
+  padding: 10px;
 }
